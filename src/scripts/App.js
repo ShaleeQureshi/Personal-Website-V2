@@ -5,7 +5,7 @@ import history from "./history";
 // Importing Views
 import IndexApp from "../views/index";
 
-import RESUME from "../assets/documents/Shahrukh_Qureshi_Resume.pdf";
+import RESUME from "../assets/documents/Shahrukh_Qureshi_Resume_Updated1.pdf";
 
 function App() {
   return (
