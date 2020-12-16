@@ -1,0 +1,70 @@
+body {
+  background-image: linear-gradient(to right, #191919 0%, #191919 100%);
+}
+.wrapper {
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.footer {
+  background-color: #191919;
+  p {
+    margin: auto;
+    color: white;
+    opacity: 0.5;
+  }
+}
+#underline {
+  width: 50%;
+  border: 2px solid #00cdac;
+  opacity: 0.75;
+}
+.landing {
+  background-image: url("../assets/images/landing.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jumbo {
+  animation: jumbo 2s 1;
+  animation-direction: alternate;
+}
+
+@keyframes jumbo {
+  50% {
+    left: 100px;
+  }
+}
+
+.section-about {
+  background-image: linear-gradient(to right, #01826d -90%, #00cdac 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  padding-bottom: 10%;
+  img {
+    max-width: 250px;
+    border-radius: 10%;
+    box-shadow: 10px 20px 50px rgb(0, 0, 0);
+  }
+}
+
+.section-software {
+  img {
+    max-width: 250px;
+    max-height: 300px;
+    min-width: auto;
+    min-height: auto;
+    border-radius: 10%;
+    box-shadow: 10px 20px 50px #015a4b;
+  }
+  #not-visible {
+    display: none;
+  }
+}
+
+.section-contact {
+  background-color: white;
+  clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
+}

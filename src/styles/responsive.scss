@@ -1,0 +1,27 @@
+@media screen and (max-width: 1024px) {
+  #jumbo {
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  #jumbo {
+    h1 {
+      font-size: 20px;
+    }
+  }
+  .section-about {
+    .about-me {
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 13px;
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
