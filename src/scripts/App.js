@@ -8,6 +8,8 @@ import IDC4U7App from "../views/IDC4U7";
 
 import RESUME from "../assets/documents/Shahrukh_Qureshi_Resume_Updated1.pdf";
 
+import VIDEO from "../assets/images/IDC4U7/Marketing Video.mp4";
+
 function App() {
   return (
     <Router history={history}>
@@ -19,7 +21,14 @@ function App() {
             window.location.replace(RESUME);
           }}
         />
-        <Route path="/IDC4U7/QuickDrink" component={IDC4U7App} />
+        <Route path="/IDC4U7/QuickDrink" exact component={IDC4U7App} />
+        <Route
+          path="/IDC4U7/QuickDrink/Video"
+          exact
+          component={() => {
+            window.location.replace(VIDEO);
+          }}
+        />
         <Route path="/" component={IndexApp} />
       </Switch>
     </Router>
