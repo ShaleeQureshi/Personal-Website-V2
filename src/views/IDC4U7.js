@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { Navbar, Nav, Container, Button, Row, Col } from "react-bootstrap";
-
-import Footer from "../components/footer";
-
 import MOREPIC from "../assets/images/IDC4U7/IMG_0915.JPG";
+import Footer from "../components/footer";
 
 const IDC4U7App = () => {
   return (
