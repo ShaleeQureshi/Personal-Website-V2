@@ -1,0 +1,18 @@
+.idc4u7 {
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  min-height: 100vh;
+  padding-bottom: 100px;
+  clip-path: polygon(0 0, 90% 0, 100% 90%, 0 100%);
+}
+
+.section-idc4u7-more {
+  min-height: 70vh;
+  padding-bottom: 100px;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  img {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 50px #99ff56;
+  }
+}

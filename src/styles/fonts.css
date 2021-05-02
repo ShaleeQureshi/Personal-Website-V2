@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Mon-SemiBold;
+  src: url("../assets/fonts/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Mon-Light;
+  src: url("../assets/fonts/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: Mon-Regular;
+  src: url("../assets/fonts/Montserrat-Regular.ttf");
+}
